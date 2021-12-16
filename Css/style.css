@@ -1,0 +1,44 @@
+body{
+    color: black;
+    /* font-size: larger;   */
+    /* font-weight: ;       */
+}
+a {
+    /* font-weight: bolder; */
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer Section */
+.faqs-container{
+    font-family: 'Gill Sans', 
+        'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+details{
+    margin-bottom: 1.4em;
+    border-bottom:  solid;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.3em;
+}
+details summary{
+    display: flex;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    /* list-style-type: ; */
+    justify-content: space-between;
+
+}
+details>summary::after {
+    /* display: flex; */
+    content: "+";
+    
+  }
+details[open] summary::after {
+    transform: rotate(135deg);
+}
